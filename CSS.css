@@ -1,0 +1,692 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  height: 5518px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 40px;
+  background: url("Imagen/bg-section-top-desktop-1-Huddle landing page.svg") 0px
+      2237px,
+    url("Imagen/bg-section-bottom-desktop-1-Huddle landing page.svg") 0px 2812px,
+    url("Imagen/bg-section-top-desktop-2-Huddle landing page.svg") 0px 3561px,
+    url("Imagen/bg-section-bottom-desktop-2-Huddle landing page.svg") 0px 4120px
+    ,url("Imagen/bg-footer-top-desktop-Huddle landing page.svg")0px 4891px
+      white;
+  background-repeat: no-repeat;
+}
+#checkemai{
+  color: red;
+}
+#container {
+  width: 1440px;
+  height: 5520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   justify-content: space-evenly;
+}
+#contain-section {
+  width: 1265px;
+  height: 5377px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#contain-header {
+  width: 1270px;
+  height: 125px;
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+}
+#contain-header > button {
+  width: 145px;
+  height: 45px;
+  font-size: 18px;
+  border-radius: 40px;
+  border: 2px solid hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
+ box-shadow: 1px 0px 5px 0px hsl(321, 100%, 78%);
+ background-color: white;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+
+}
+#contain-header > button:hover{
+  border: 1px solid  hsl(321, 100%, 78%);
+  color: hsl(321, 100%, 78%);
+   box-shadow: 1px 0px 5px 0px hsl(321, 100%, 78%);
+
+}
+#contain-header >img{
+  width:240px;
+  height: 45px;
+  background-repeat: no-repeat;
+ 
+}
+ 
+#contain-article {
+  width: 1270px;
+  height: 395px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#contain-section{
+  height: 5518px;
+ width: 300px;
+}
+#contain-article > h1 {
+  font-size: 50px;
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+#contain-article > p {
+  font-size: 25px;
+  color: hsl(192, 100%, 9%);
+  font-family: "Open Sans", sans-serif;
+  width: 800px;
+  padding: 30px;
+}
+#contain-article > button {
+  width: 400px;
+  height: 80px;
+  border-radius: 35px;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  background-color: hsl(322, 100%, 66%);
+  color: #f5faff;
+   font-family: "Poppins", sans-serif;
+  box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
+  cursor: pointer;
+
+}
+#contain-article > button:hover{
+    box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
+
+background-color: hsl(321, 100%, 78%);
+}
+.contain-div {
+  width: 1030px;
+  height: 1160px;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contain-div > .all {
+  width: 1030px;
+  height: 215px;
+  grid-template-columns: 190px 190px;
+  grid-template-rows: 100px 100px;
+  display: grid;
+
+  justify-content: space-around;
+}
+.contain-div > img {
+  width: 1020px;
+  height: 735px;
+}
+.contain-div > .all > div > h3 {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+.contain-div > .all > div > p {
+  font-size: 18px;
+  color: gray;
+  font-family: "Open Sans", sans-serif;
+}
+#contain-aside {
+  width: 1190px;
+  height: 2569px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#contain-aside>div> div {
+  width: 495px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+   justify-content: space-evenly;
+}
+#contain-aside>div> div > h2 {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+  padding: 5px;
+}
+#contain-aside>div> div > p {
+  padding: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: hsl(192, 100%, 9%);
+}
+#contain-aside > div > img {
+  width: 510px;
+  height: 400px;
+}
+.grow {
+  width: 1440px;
+  height: 410px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(207, 100%, 98%);
+   
+} 
+.flowing {
+   width: 1440px;
+  height: 410px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+  
+}
+ 
+
+.users {
+  width: 1440px;
+  height: 410px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: hsl(207, 100%, 98%);
+}
+.ready {
+  width: 1265px;
+ height: 350px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ }
+.ready > h2 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  padding: 25px;
+  color: hsl(192, 100%, 9%);
+}
+.ready > button {
+  width: 405px;
+  height: 90px;
+  color: hsl(207, 100%, 98%);
+  border: none;
+  border-radius: 45px;
+  font-family: "Poppins", sans-serif;
+  padding: 25px;
+  font-size: 25px;
+  background-color: hsl(322, 100%, 66%);
+  cursor: pointer;
+}
+.ready> button:hover{
+    box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
+
+background-color: hsl(321, 100%, 78%);
+}
+#second-article {
+  width: 1440px;
+  height: 470px;
+  
+   display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: hsl(192, 100%, 9%);
+  align-items: center;
+}
+#second-article > .social {
+  width: 321px;
+  height: 353px;
+  display: grid;
+  grid-template-rows: 75px 80px 40px 75px;
+ }
+#second-article > .social > .btn {
+  width: 160px;
+  height: 30px;
+  display: grid;
+  grid-template-columns: 30px 160px;
+}
+#second-article > .social > p {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(207, 100%, 98%);
+
+  font-size: 15px;
+}
+#second-article > .social > div > p {
+  color: hsl(207, 100%, 98%);
+  font-size: 15px;
+}
+#second-article > .social  > img {
+  width: 250px;
+filter: invert(10%) brightness(1000%);
+
+
+height: 45px;
+}
+.icons > .icons-btn {
+   width: 40px;
+  height: 30px;
+color: hsl(192, 100%, 9%);
+background-color: white;
+border-radius: 5px;}
+.icons>.icons-btn:hover{
+background-color: aqua;
+}
+
+
+.net {
+   width: 430px;
+  height: 285px;
+  display: flex;
+flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  
+  
+}
+ 
+.net > div > input {
+  width: 260px;
+  padding: 20px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+
+}
+.net > div > button {
+  width: 90px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+background-color: hsl(322, 100%, 66%);
+color: hsl(207, 100%, 98%);
+    font-size: 14px;
+    cursor: pointer;
+ }
+.net > div >button:hover{
+ 
+background-color: hsl(321, 100%, 78%);
+}
+.net > h2 {
+  font-family: "Poppins", sans-serif;
+padding: 20px;
+  font-size: 30px;
+  color:  hsl(207, 100%, 98%);
+}
+.net > p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color:  hsl(207, 100%, 98%);
+}
+.challenge{
+  font-size: 15px;
+  color: aquamarine;
+}
+.challenge>a{
+  color: white;
+}
+@media screen and (max-width:375px) {
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 375px;
+    height: 4625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 40px;
+     background:url("Imagen/bg-section-top-mobile-1-Huddle landing page.svg"
+  )0px 1384px,url("Imagen/bg-section-bottom-mobile-1-Huddle landing page.svg"
+  )0px 1919px,url("Imagen/bg-section-top-mobile-2-Huddle landing page.svg" 
+  )0px 2665px,url("Imagen/bg-section-bottom-mobile-2-Huddle landing page.svg"
+  )0px 3192px
+   ,url("Imagen/bg-footer-top-mobile-Huddle landing page.svg") 0px 3838px white;
+    background-repeat: no-repeat;
+  }
+  
+  #container {
+    width: 330px;
+    height: 4625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  #contain-section {
+    width: 330px;
+    height: 4625px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #contain-header {
+    width: 330px;
+    height:35px;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+  }
+  #contain-header > button {
+    width: 85px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 40px;
+    border: 2px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+   box-shadow: 1px 0px 5px 0px hsl(321, 100%, 78%);
+   background-color: white;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+  
+  }
+  #contain-header > button:hover{
+    border: 1px solid  hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+     box-shadow: 1px 0px 5px 0px hsl(321, 100%, 78%);
+  
+  }
+  #contain-header >img{
+    width:100px;
+    height: 25px;
+    background-repeat: no-repeat;
+   
+  }
+   
+  #contain-article {
+    width: 300px;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   
+  #contain-article > h1 {
+    font-size: 25px;
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+   }
+  #contain-article > p {
+    font-size: 15px;
+    color: hsl(192, 100%, 9%);
+    font-family: "Open Sans", sans-serif;
+    width: 400px;
+    padding: 30px;
+  }
+  #contain-article > button {
+    width: 205px;
+    height: 45px;
+    border-radius: 35px;
+    border: none;
+     font-size: 15px;
+    background-color: hsl(322, 100%, 66%);
+    color: #f5faff;
+     font-family: "Poppins", sans-serif;
+    box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
+    cursor: pointer;
+  
+  }
+  #contain-article > button:hover{
+      box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
+  
+  background-color: hsl(321, 100%, 78%);
+  }
+  .contain-div {
+    width: 305px;
+    height: 735px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+  .contain-div > .all {
+    width: 307px;
+    height: 395px;
+    grid-template-columns: 190px;
+    grid-template-rows: 260px 260px;
+    display: grid;
+      justify-content: space-evenly;
+  }
+  .contain-div > img {
+    width: 295px;
+    height: 215px;
+  }
+  .contain-div > .all > div > h3 {
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    color: hsl(192, 100%, 9%);
+  }
+  .contain-div > .all > div > p {
+    font-size: 15px;
+      color: gray;
+    font-family: "Open Sans", sans-serif;
+  }
+  .contain-div > .all > div>img{
+    width: 30px;
+  }
+  .contain-div > .all > div{
+    width: 180px;
+    height: 165px;
+   }
+  #contain-aside {
+    width: 335px;
+    height: 2390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+   }
+  #contain-aside > div > img {
+    width: 265px;
+    height: 230px;
+  }
+  #contain-aside >div>div {
+    width: 300px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  #contain-aside >div> div > h2 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: hsl(192, 100%, 9%);
+   }
+  #contain-aside >div > div > p {
+     font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    color: hsl(192, 100%, 9%);
+  }
+  .grow {
+    width: 375px;
+    height: 425px;
+  
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: hsl(207, 100%, 98%);
+    text-align: center;
+    
+  }
+   
+  
+  .flowing {
+   width: 375px;
+    height: 425px;
+  
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+      
+  }  
+   
+  
+  .users {
+  width: 375px;  
+  height: 425px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(207, 100%, 98%);
+    text-align: center;
+  } 
+   
+  .ready {
+    width: 375px;
+    height: 270px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    }
+  .ready > h2 {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+     color: hsl(192, 100%, 9%);
+    text-align: center;
+  }
+  .ready > button {
+    width: 205px;
+    height: 45px;
+    color: hsl(207, 100%, 98%);
+    border: none;
+    border-radius: 45px;
+    font-family: "Poppins", sans-serif;
+     font-size: 15px;
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+    text-align: center;
+  }
+  .ready> button:hover{
+      box-shadow: 0px 1px 9px 0px hsl(192, 100%, 9%);
+  
+  background-color: hsl(321, 100%, 78%);
+  }
+  #second-article {
+    width: 375px;
+    height: 735px;
+  justify-content: space-around;
+     display: flex;
+     flex-direction: column-reverse;
+     background-color: hsl(192, 100%, 9%);
+    align-items: center;
+  
+    
+  }
+  #second-article > .social {
+    width: 310px;
+    height: 345px;
+    display: grid;
+    grid-template-rows: 60px 80px 50px 75px;
+   }
+  #second-article > .social > .btn {
+    width: 160px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 30px 160px;
+  }
+  #second-article > .social > p {
+    font-family: "Open Sans", sans-serif;
+    color: hsl(207, 100%, 98%);
+  
+    font-size: 13px;
+  }
+  #second-article > .social > div > p {
+    color: hsl(207, 100%, 98%);
+    font-size: 15px;
+  }
+  #second-article> .social >img:nth-child(1) {
+    width: 210px;
+     height: 459px;
+   }
+     
+  .icons > .icons-btn {
+     width: 30px;
+    height: 25px;
+  color: hsl(192, 100%, 9%);
+  background-color: white;
+  border-radius: 5px;}
+  .icons>.icons-btn:hover{
+  background-color: aqua;
+  }
+  .net {
+     width: 320px;
+    height: 290px;
+    display: flex;
+  flex-direction: column;
+    justify-content: space-evenly;   
+  }
+  .net > div > input {
+    width: 325px;
+     height: 55px;
+    border: none;
+    border-radius: 5px;
+  }
+  .net > div > button {
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+      font-family: "Poppins", sans-serif;
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(207, 100%, 98%);
+      font-size: 14px;
+      cursor: pointer;
+   }
+  .net > div >button:hover{
+   
+  background-color: hsl(321, 100%, 78%);
+  }
+  .net > h2 {
+    font-family: "Poppins", sans-serif;
+     font-size: 30px;
+    color:  hsl(207, 100%, 98%);
+  }
+  .net > p {
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    color:  hsl(207, 100%, 98%);
+  }
+  .challenge{
+    font-size: 15px;
+    color: aquamarine;
+  }
+  .challenge>a{
+    color: white;
+  }
+  
+}
